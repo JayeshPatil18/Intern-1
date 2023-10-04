@@ -30,11 +30,7 @@ class _LoginScreenState extends State<LoginScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              CircleAvatar(
-                backgroundImage: NetworkImage(
-                    'https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg'),
-                radius: 80,
-              ),
+              Image.asset('assets/images/swaastik_emii_logo.png', height: 200,),
               Text('Dev Associate',
                   style: TextStyle(
                       color: Colors.black,
